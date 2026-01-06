@@ -1,25 +1,16 @@
-## GitHub README blocks (copy/paste)
+Links
 
-### Add near the top of your GitHub `README.md`
+- **Free sample on HuggingFace**: <PAShttps://huggingface.co/datasets/arti199919/synthetic-saas-churn-sampleTE_HF_URL>
+- **Kaggle dataset (sample)**: <https://www.kaggle.com/datasets/arti199919/synthetic-saas-churn-sample>
+- **Kaggle notebook (baseline)**: <https://www.kaggle.com/code/arti199919/synthetic-b2b-saas-churn-revenue-sample>
+- **Paid full dataset on Gumroad (100k users + baseline)**: <https://gorchakov.gumroad.com/l/zhawn?utm_source=github&utm_medium=readme&utm_campaign=sample>
 
-```markdown
-## Links
-
-- **Free sample on HuggingFace**: <PASTE_HF_URL>
-- **Kaggle dataset (sample)**: <PASTE_KAGGLE_DATASET_URL>
-- **Kaggle notebook (baseline)**: <PASTE_KAGGLE_NOTEBOOK_URL>
-- **Paid full dataset on Gumroad (100k users + baseline)**: https://gorchakov.gumroad.com/l/zhawn?utm_source=github&utm_medium=readme&utm_campaign=sample
-
-## Proof (baseline)
+Proof (baseline)
 
 The paid package includes `BASELINE.txt` with an example result:
-- XGBoost next-month churn baseline: **AUC ≈ 0.81**
-```
+- XGBoost next-month churn baseline: **AUC ≈ 0.81
 
-### Optional FAQ (good for SEO)
-
-```markdown
-## FAQ
+FAQ
 
 **Is this real customer data?**  
 No. It’s **100% synthetic**. See `meta.json` fields: `data_origin`, `real_data_used=false`, `gdpr_risk=none`.
@@ -29,6 +20,6 @@ Churn prediction, LTV / revenue modeling, segmentation, cohort analysis.
 
 **What’s the recommended ML label?**  
 Use `user_monthly` features at month *t* and label `churned_next_month`.
-```
+
 
 
