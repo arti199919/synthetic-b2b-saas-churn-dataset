@@ -1,7 +1,7 @@
 # synthetic-b2b-saas-churn-dataset
 Links
 
-- **Free sample on HuggingFace**: <PAShttps://huggingface.co/datasets/arti199919/synthetic-saas-churn-sampleTE_HF_URL>
+- **Free sample on HuggingFace**: <https://huggingface.co/datasets/arti199919/synthetic-saas-churn-sampleTE_HF_URL>
 - **Kaggle dataset (sample)**: <https://www.kaggle.com/datasets/arti199919/synthetic-saas-churn-sample>
 - **Kaggle notebook (baseline)**: <https://www.kaggle.com/code/arti199919/synthetic-b2b-saas-churn-revenue-sample>
 - **Paid full dataset on Gumroad (100k users + baseline)**: <https://gorchakov.gumroad.com/l/zhawn?utm_source=github&utm_medium=readme&utm_campaign=sample>
