@@ -1,26 +1,16 @@
-# synthetic-b2b-saas-churn-dataset
-Links
+ Synthetic B2B SaaS Churn & Revenue Dataset
 
-- **Free sample on HuggingFace**: <https://huggingface.co/datasets/arti199919/synthetic-saas-churn-sample>
-- **Kaggle dataset (sample)**: <https://www.kaggle.com/datasets/arti199919/synthetic-saas-churn-sample>
-- **Kaggle notebook (baseline)**: <https://www.kaggle.com/code/arti199919/synthetic-b2b-saas-churn-revenue-sample>
-- **Paid full dataset on Gumroad (100k users + baseline)**: <https://gorchakov.gumroad.com/l/zhawn?utm_source=github&utm_medium=readme&utm_campaign=sample>
+## Start here (free sample)
+- HuggingFace dataset (sample): https://huggingface.co/datasets/arti199919/synthetic-saas-churn-sample
 
-Proof (baseline)
+## Proof / baseline
+- Kaggle notebook (baseline): https://www.kaggle.com/code/arti199919/synthetic-b2b-saas-churn-revenue-sample
+- Kaggle dataset (sample): https://www.kaggle.com/datasets/arti199919/synthetic-saas-churn-sample
 
-The paid package includes `BASELINE.txt` with an example result:
-- XGBoost next-month churn baseline: **AUC ≈ 0.81
+## Paid full dataset (100k users + baseline)
+- Gumroad: https://gorchakov.gumroad.com/l/zhawn?utm_source=github&utm_medium=readme&utm_campaign=landing
 
-FAQ
-
-**Is this real customer data?**  
-No. It’s **100% synthetic**. See `meta.json` fields: `data_origin`, `real_data_used=false`, `gdpr_risk=none`.
-
-**What tasks does it support?**  
-Churn prediction, LTV / revenue modeling, segmentation, cohort analysis.
-
-**What’s the recommended ML label?**  
-Use `user_monthly` features at month *t* and label `churned_next_month`.
-
-
-
+## Quick baseline run (local)
+python3 -m pip install -r requirements-ml.txt
+python3 churn_xgboost_baseline.py --data-dir . --format parquet --split user --test-size 0.2## Legal / privacy
+100% synthetic. No real customer data used. GDPR risk: none (see `meta.json` in dataset packages).
